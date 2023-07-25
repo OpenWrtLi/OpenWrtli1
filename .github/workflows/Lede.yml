@@ -125,8 +125,8 @@ jobs:
       run: |
         cd ${GITHUB_WORKSPACE}
         if [[ -z "${{ secrets.REPO_TOKEN }}" ]]; then
-          echo "您没有设置仓库密匙，请按教程设置好密匙再来"
-          echo "REPO_TOKEN密匙制作教程：https://git.io/jm.md"
+          echo "设置好密匙"
+          echo "REPO_TOKEN密匙"
           exit 1
         fi
     
