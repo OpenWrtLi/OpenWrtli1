@@ -148,6 +148,7 @@ jobs:
         export INPUTS_COMPILATION_INFORMATION="${{ github.event.inputs.COMPILATION_INFORMATION }}"
         export INPUTS_PACKAGING_FIRMWARE="${{ github.event.inputs.PACKAGING_FIRMWARE }}"
         source build/${{ env.FOLDER_NAME }}/common.sh && Diy_menu1
+        sudo rm -rf /etc/apt/sources.list.d/* /usr/share/dotnet /usr/local/lib/android /opt/ghc
 
     - name: 部署编译环境
       env:
