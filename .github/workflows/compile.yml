@@ -124,7 +124,7 @@ jobs:
       run: |
         cd openwrt
         make defconfig
-        make download -j16
+        make download -j1
     
     - name: 开始编译固件
       id: compile
