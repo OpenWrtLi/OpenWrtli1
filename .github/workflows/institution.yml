@@ -4,7 +4,7 @@
 # 创建文件夹需要用到REPO_TOKEN密匙
 #
 # REPO_TOKEN密匙制作教程：https://git.io/jm.md
-#1
+#
 
 name: 创建文件夹
 on:
